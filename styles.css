@@ -1,0 +1,29 @@
+.grand {
+    /* display: flex; */
+    /* background-color: aqua; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 100vh; */
+    /* justify-items: center; */
+    /* align-content: center; */
+}
+
+.parent {
+    /* display: flex; */
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c50202;
+    /* height: 50vh; */
+    width: 50%;
+
+}
+
+@media screen and (max-width: 768px) {
+    .parent {
+        /* width: 100%; */
+        background-color: rgb(23, 109, 109);
+    }
+}
